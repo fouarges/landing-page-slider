@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Landing Page</title>
+    <meta name="description" content="This is a landing page example. Write a short, concise description to present your page without using a spammy tone.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Landing Page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/fouarges/landing-page.index.html">
+    <meta property="og:image" content="https://github.com/fouarges/landing-page/assets/ogimage.png">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#121212">
+    <meta name="theme-color" content="#121212">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css?v=1.0.1">
+</head>
+
+<body>
+    <!-- Header Section - START -->
+	<section class="container-wide header-container">
+		<header id="masthead" class="site-header d-flex">
+			<div class="site-branding">
+				<!-- <img class="logo" src="pi-logo.png"> -->
+                <h1 class="logo-text">Company Name</h1>
+			</div><!-- .site-branding -->
+			<div class="container-boxed">
+				<nav id="site-navigation" class="main-navigation">
+                    
+				</nav><!-- #site-navigation -->
+			</div>
+		</header><!-- #masthead -->
+	</section>
+    <!-- Header Section - END -->
+    <!-- Main Section - BEGIN -->
+    <div class="splide" data-splide='{"type":"loop","arrows":true}'>
+		<div class="splide__slider"> <!-- relative -->
+			<div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <section class="section-slider section-0 section">
+                        <div class="aside">
+                            <h1>Some <span>flashy</span> and engaging buzzwords</h1>
+                            <p>Your first slide and the first thing the user will read. Make sure you have a brief, straight to the point message.</p>
+                        </div>
+                    </section>
+                </li>
+                <li class="splide__slide">
+                    <section class="section-slider section-1 section">
+                        <div class="aside">
+                            <h2 class="subtitle">Subtitle 01</h2>
+                            <h1>More flashy <span>buzzwords</span></h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <em>Vestibulum eu neque</em>
+                        </div>
+                    </section>
+                </li>
+                <li class="splide__slide">
+                    <section class="section-slider section-2 section">
+                        <div class="aside">
+                            <h2 class="subtitle">Subtitle 02</h2>
+                            <h1>Even more <span>#engaging</span> buzzwords</h1>
+                            <p>Suspendisse ac erat nec ex fringilla imperdiet non vel purus. Aenean condimentum luctus massa, eget fringilla enim volutpat sit amet.</p>
+                            <em>Nam placerat et diam in dictum</em>
+                        </div>
+                    </section>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Main Section - END -->
+
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Tag Manager  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=X-XXXXXXXX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'X-XXXXXXXX');
+    </script> -->
+
+    <!-- Splide script and styles-->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide-core.min.css">
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide' ).mount();
+        } );
+    </script>
+
+</body>
+
+</html>
