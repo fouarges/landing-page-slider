@@ -1,6 +1,7 @@
 # Sliding Runway
 ### What is it?
 Sliding runway is a simple, lightweight landing page :airplane: featuring a fullpage slider.
+Check the [demo](https://fouarges.github.io/sliding-runway/).
 
 ### Why?
 Because the web needs better, faster landing pages.
