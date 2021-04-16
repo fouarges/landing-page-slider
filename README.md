@@ -20,4 +20,5 @@ If you're here then you probably know how to write HTML / CSS / JS.
 - RTL support
 - Social media icons
 - Newsletter subscription form
+- Switching light and dark theme
 - Better `<img>` using the `srcet` attribute
